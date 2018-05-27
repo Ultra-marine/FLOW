@@ -1,0 +1,134 @@
+@red:#CE3005;
+@reder:#B23733;
+@pur:#9E3C35;
+@ora:#CD6000;
+@bluee:#4492C6;
+@blueer:#205E99;
+@dyel:#E2D4B5;
+@gre:#999999;
+@blu:#C3DAE2;
+@whi:#F6F6F6;
+
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+#navTog{
+	&:hover{
+		background-color: @dyel;
+		border: 1px solid @red;
+		.icon-bar{
+			border:2px solid @red;
+		}
+	}
+}
+
+	
+	
+	
+		
+	
+			#navButton{
+				padding: 0px;
+				z-index: 99;
+				color: @red;
+				padding: 10px 20px;
+				border: 2px solid @red;
+				position: relative;
+			&:hover{
+				// background-color: @red;
+				// border: 2px solid @red;
+				// color: @whi;
+
+				&:before{
+					display: block;
+					content: 'HOLD TO TRY';
+					background-color: @red;
+					padding: 10px 20px;
+					color: @whi;
+					height: 100%;
+					width: 100%;
+					position: absolute;
+					left: 0;
+					top: 0;
+				}
+			}
+		}
+			
+	
+
+#svg{
+	// transform: translate(-50px,0);
+	z-index: -1;
+}
+
+#aniContain{
+	padding: 0;
+	#replace1{
+		height: 130px;
+
+	}
+}
+
+
+#centerBlock{
+	position: relative;
+	top: 0px;
+	padding: 0;
+	h1{
+			color:@red;
+			border: 2px solid @red;
+			padding: 10px 20px;
+		}
+	p{
+			color:@red;
+			
+		}
+	#cenContent1{
+		padding: 0;
+		// background-color: @dyel;
+		
+		
+	}
+	#cenContent2{
+		#img1{
+			position:absolute;
+			top:100px;
+			z-index: -1;
+		}
+		p{
+			margin-top: 50px;
+			position: absolute;
+			font-size: 30px;
+			border: 2px solid @red;
+			padding: 120px 40px;
+			img{
+				position: absolute;
+				z-index: -1;
+				top:-30%;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

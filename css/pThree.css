@@ -1,0 +1,64 @@
+.row div {
+  padding: 0;
+}
+#cen1 {
+  margin: 0;
+  padding: 0;
+  color: #E2D4B5;
+}
+#cen1 embed {
+  padding: 0;
+}
+#cen1 img {
+  padding: 0;
+}
+#cen1 .proStep {
+  padding: 30px 20px;
+  background-color: #CE3005;
+}
+#cen1 .proStep p {
+  font-size: 2em;
+}
+#cen1 .proStep .pH {
+  font-size: 3em;
+}
+#cen1 .proStep2 {
+  margin-top: 5px;
+  margin-right: 0px;
+  color: #CE3005;
+}
+#cen1 .proStep2 .pH2 {
+  background-color: #CE3005;
+  color: #E2D4B5;
+  padding: 5px 15px;
+  font-size: 2em;
+}
+#cen1 .proStep2 .pB {
+  border: 2px solid #CE3005;
+  color: #CE3005;
+  padding: 20px 20px;
+  font-size: 2em;
+  height: 300px;
+}
+#cen1 #rC {
+  padding: 0;
+}
+#cen1 #rC div {
+  background-image: url(../img/dra6+.png);
+  background-position: 0 -150px;
+  padding: 50px 30px;
+  height: 200px;
+  font-size: 2em;
+  color: white;
+}
+#cen1 #rC div:hover {
+  color: #CE3005;
+}
+#cen1 #rC div:last-child {
+  background-position: 0 -220px;
+}
+#cen1 h1 {
+  padding: 10px 20px;
+  border: 2px solid #CE3005;
+  color: #CE3005;
+}

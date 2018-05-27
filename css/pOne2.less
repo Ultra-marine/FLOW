@@ -1,0 +1,168 @@
+@red:#CE3005;
+@pur:#9E3C35;
+@ora:#CD6000;
+@bluee:#2A6FB1;
+@dyel:#FAEBC3;
+@gre:#999999;
+@blu:#C3DAE2;
+
+.highlight{
+	&:before{
+		width: 10%;
+		height: 10px;
+		background-color: #ece5e5;
+		border-radius: 45px;
+		display: block;
+		position: absolute;
+		right: 20px;
+		margin-top: 5px;
+		content: '';
+	};
+}
+
+#pot2{
+	position: fixed;
+	z-index: 2;
+	top: 0;
+}
+
+
+#cenBlock{
+	.row{
+		padding: 0;
+	}
+	position: relative;
+	color:@red;
+	padding: 0px;
+	margin: 0px;
+	
+	h1{
+		padding: 10px 20px;
+		border: 2px solid @red;
+	}
+	
+	#c2{
+		position: relative;
+
+		#mask{
+			background-color: @red;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			top: 0%;
+		}
+		
+	}
+	#text2{
+		margin-top: 20px;
+	}
+	#bloodCell{
+		padding: 0;
+	
+		ul{
+			
+			padding: 0px;
+			li{
+				display: inline-block;
+				border: 2px solid @red;
+				margin-top: 10px;
+				color: @red;
+				padding: 10px;
+				
+				
+				text-align: center;
+				font-size: 1.5em;
+				transition: 0.2s;
+				cursor: pointer;
+				&:hover{
+					background-color: @red;
+					color: @dyel;
+				}
+			}	
+		}
+		#cellInfo{
+			padding: 0;
+			margin: 0;
+			overflow:hidden;
+			div{
+				margin: 0;
+				padding: 0;
+				p{
+				font-size: 2em;
+				background-color: @red;
+				padding: 30px;
+				margin: 0;
+				
+				&:hover{
+					background-color: @ora;
+				}
+			}
+			.cp{
+				color: white;
+				}
+
+			}
+		}
+		#picPlay{
+			border: 2px solid @red;
+			padding: 0;
+			margin-bottom: 50px;
+			height: 420px;
+			float: right;
+
+		}
+		#picPlay2{
+
+		}
+	}
+	#bone{
+		
+		h1{
+			padding: 10px 20px;
+			border: 2px solid @red;
+		}
+		p{
+			// border: 1px solid @red;
+			color: black;
+			// background-color: @red;
+			padding: 20px 30px;
+			font-size: 1.7em;
+		}
+		embed{
+			position: absolute;
+			bottom: -20px;
+			right: -150px;
+		}
+		img{
+			padding: 0;
+			z-index: 99;
+		}
+		#tBottom{
+			background-color: @red;
+			color: @dyel;
+		}
+		#tTop{
+			padding: 20px 0 50px 0;
+		}
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

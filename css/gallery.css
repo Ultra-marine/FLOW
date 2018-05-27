@@ -1,0 +1,77 @@
+body {
+  background-color: #B23733;
+  background-image: url(../img/gal1.png);
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  background-position: auto 0;
+}
+#cenBlock {
+  position: relative;
+  color: #F6F6F6;
+}
+#cenBlock h1 {
+  padding: 10px 20px;
+  border: 2px solid #F6F6F6;
+  color: #F6F6F6;
+}
+#cenBlock .cenContent {
+  overflow: hidden;
+}
+#cenBlock .cenContent .buttonA {
+  padding: 10px 20px;
+  color: #F6F6F6;
+  font-size: 2em;
+  border: 2px solid #F6F6F6;
+  text-decoration: none;
+}
+#cenBlock .cenContent .buttonA:hover {
+  background-color: #F6F6F6;
+  color: #B23733;
+}
+#cenBlock #textArea {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
+#cenBlock #textArea p {
+  position: absolute;
+  border: none;
+  color: #F6F6F6;
+}
+#cenBlock #count {
+  font-size: 3em;
+}
+#cenBlock #count #span1 {
+  font-size: 3em;
+}
+#row3 {
+  background-color: #B23733;
+  background-image: url(../img/draMax3.png);
+  background-size: 50%;
+  background-position: auto 00px;
+  padding: 0;
+}
+#row3 div {
+  height: 1000px;
+}
+#row3 h1 {
+  padding: 10px 20px;
+  border: 2px solid #CE3005;
+  color: #CE3005;
+}
+#row3 p {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  border: 2px solid #CE3005;
+  color: #CE3005;
+}
+#row3 p:hover {
+  background-color: #CE3005;
+  color: #F6F6F6;
+}
+#row3 img {
+  padding: 0;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,44 @@
+.hoverColor:hover {
+  box-shadow: 0px 20px 5px rgba(0, 0, 0, 0.8) inset;
+}
+.font-face {
+  font-family: "Futura";
+  src: url(font/Futura.ttc);
+}
+body {
+  padding: 0px;
+  margin-left: 0em;
+  background-color: #F6F6F6;
+  font-family: "Futura";
+  src: url(font/Futura.ttc);
+  height: 1500px;
+  color: #F6F6F6;
+}
+#Anav {
+  background-image: url('../img/body-02.svg');
+  -webkit-background-size: 50%;
+  background-size: 50%;
+  background-repeat: ;
+}
+#Anav li a {
+  color: #999999;
+}
+#Anav li a:hover {
+  color: #B23733;
+}
+#Anav .active1 a {
+  color: #CE3005;
+}
+#Anav .icon-bar {
+  border: 2px solid #E2D4B5;
+}
+#Anav #navTog:hover {
+  background-color: #E2D4B5;
+  border: 1px solid #CE3005;
+}
+#Anav #navTog:hover .icon-bar {
+  border: 2px solid #CE3005;
+}
+#Anav li:last-child a {
+  color: #2A6FB1;
+}

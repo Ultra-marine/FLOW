@@ -1,0 +1,116 @@
+.highlight:before {
+  width: 10%;
+  height: 10px;
+  background-color: #ece5e5;
+  border-radius: 45px;
+  display: block;
+  position: absolute;
+  right: 20px;
+  margin-top: 5px;
+  content: '';
+}
+#pot2 {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+}
+#cenBlock {
+  position: relative;
+  color: #CE3005;
+  padding: 0px;
+  margin: 0px;
+}
+#cenBlock .row {
+  padding: 0;
+}
+#cenBlock h1 {
+  padding: 10px 20px;
+  border: 2px solid #CE3005;
+}
+#cenBlock #c2 {
+  position: relative;
+}
+#cenBlock #c2 #mask {
+  background-color: #CE3005;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+}
+#cenBlock #text2 {
+  margin-top: 20px;
+}
+#cenBlock #bloodCell {
+  padding: 0;
+}
+#cenBlock #bloodCell ul {
+  padding: 0px;
+}
+#cenBlock #bloodCell ul li {
+  display: inline-block;
+  border: 2px solid #CE3005;
+  margin-top: 10px;
+  color: #CE3005;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  transition: 0.2s;
+  cursor: pointer;
+}
+#cenBlock #bloodCell ul li:hover {
+  background-color: #CE3005;
+  color: #FAEBC3;
+}
+#cenBlock #bloodCell #cellInfo {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+#cenBlock #bloodCell #cellInfo div {
+  margin: 0;
+  padding: 0;
+}
+#cenBlock #bloodCell #cellInfo div p {
+  font-size: 2em;
+  background-color: #CE3005;
+  padding: 30px;
+  margin: 0;
+}
+#cenBlock #bloodCell #cellInfo div p:hover {
+  background-color: #CD6000;
+}
+#cenBlock #bloodCell #cellInfo div .cp {
+  color: white;
+}
+#cenBlock #bloodCell #picPlay {
+  border: 2px solid #CE3005;
+  padding: 0;
+  margin-bottom: 50px;
+  height: 420px;
+  float: right;
+}
+#cenBlock #bone h1 {
+  padding: 10px 20px;
+  border: 2px solid #CE3005;
+}
+#cenBlock #bone p {
+  color: black;
+  padding: 20px 30px;
+  font-size: 1.7em;
+}
+#cenBlock #bone embed {
+  position: absolute;
+  bottom: -20px;
+  right: -150px;
+}
+#cenBlock #bone img {
+  padding: 0;
+  z-index: 99;
+}
+#cenBlock #bone #tBottom {
+  background-color: #CE3005;
+  color: #FAEBC3;
+}
+#cenBlock #bone #tTop {
+  padding: 20px 0 50px 0;
+}

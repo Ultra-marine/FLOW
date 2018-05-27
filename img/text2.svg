@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 933 259" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <g id="图层_1.-2">
+        <rect x="0" y="183" width="933" height="73" style="fill:rgb(195,218,226);"/>
+        <g transform="matrix(1.2213,0,0,1,3.64194,0)">
+            <path d="M237.5,219.99C237.5,206.97 228.845,196.4 218.184,196.4L28.616,196.4C17.955,196.4 9.3,206.97 9.3,219.99C9.3,233.01 17.955,243.58 28.616,243.58L218.184,243.58C228.845,243.58 237.5,233.01 237.5,219.99Z" style="fill:rgb(196,48,38);stroke:rgb(204,58,11);stroke-width:1px;"/>
+        </g>
+        <rect x="0" y="0" width="933" height="153" style="fill:rgb(204,58,11);"/>
+        <g transform="matrix(1,0,0,1,179.942,99.9102)">
+            <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:74px;fill:rgb(250,235,195);">1</text>
+            <g transform="matrix(1,0,0,1,41.2,0)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:74px;fill:rgb(250,235,195);">000ML<tspan x="223.518px 244.077px " y="0px 0px "> B</tspan></text>
+            </g>
+            <g transform="matrix(1,0,0,1,348.8,0)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:74px;fill:rgb(250,235,195);">L</text>
+            </g>
+            <g transform="matrix(1,0,0,1,379.3,0)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:74px;fill:rgb(250,235,195);">OOD</text>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,359.925,235.5)">
+            <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:rgb(128,14,7);">900ML</text>
+            <g transform="matrix(1,0,0,1,178.2,0)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:rgb(128,14,7);">W</text>
+            </g>
+            <g transform="matrix(1,0,0,1,228.1,0)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:rgb(128,14,7);">A</text>
+            </g>
+            <g transform="matrix(1,0,0,1,263,0)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;fill:rgb(128,14,7);">TER</text>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,76.0957,229.3)">
+            <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:26px;fill:rgb(246,188,190);">B</text>
+            <g transform="matrix(1,0,0,1,15.4,0)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:26px;fill:rgb(246,188,190);">L</text>
+            </g>
+            <g transform="matrix(1,0,0,1,26.1,0)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:26px;fill:rgb(246,188,190);">OOD CELL</text>
+            </g>
+        </g>
+        <path d="M918,11C918,8.24 915.76,6 913,6L775,6C772.24,6 770,8.24 770,11C770,13.76 772.24,16 775,16L913,16C915.76,16 918,13.76 918,11Z" style="fill:rgb(235,175,176);"/>
+        <path d="M918,196C918,193.24 915.76,191 913,191L852,191C849.24,191 847,193.24 847,196C847,198.76 849.24,201 852,201L913,201C915.76,201 918,198.76 918,196Z" style="fill:rgb(242,242,242);"/>
+    </g>
+</svg>

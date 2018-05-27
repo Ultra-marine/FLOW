@@ -1,0 +1,109 @@
+@red:#CE3005;
+@reder:#B23733;
+@pur:#9E3C35;
+@ora:#CD6000;
+@bluee:#2A6FB1;
+@blueer:#205E99;
+@dyel:#E2D4B5;
+@gre:#999999;
+@blu:#C3DAE2;
+@whi:#F6F6F6;
+
+.hoverColor{
+	&:hover{
+		// background-color: @red;
+		box-shadow:0px 20px 5px  rgba(0,0,0,.8) inset; 
+	}
+}
+
+.font-face {
+    font-family: "Futura";
+    src: url(font/Futura.ttc);
+}
+
+body{
+	padding: 0px;
+	margin-left: 0em;
+	background-color: @whi;
+	.font-face;
+	height: 1500px;
+	color:@whi;
+}
+
+// #Anav{
+// 		font-size: 20px;
+// 		background-color: @reder;
+// 		padding: 0px;
+// 		color: @dyel;
+// 		border: none;
+// 		border-radius: 0;
+// 		top:10px;
+		
+// 			color: @dyel;
+// 			z-index: 99;
+		
+// 			li{
+// 				display: inline-block;
+// 				float: left;
+// 				a{
+// 					padding: 13px 30px;
+// 					color: @dyel;
+// 					&:hover{
+// 						background-color: @dyel;
+// 						color:@red;
+// 						text-decoration: none;
+// 					}
+// 				}
+// 			}
+// 		.active1{
+// 				background-color: @red;
+				
+// 			}
+// 		.icon-bar{
+// 			border:2px solid @dyel;
+// 			}
+// 		.dropdown{
+// 			background-color: @reder;
+// 		}
+		
+// 	}
+
+#Anav{
+	background-image: url('../img/body-02.svg');
+	-webkit-background-size: 50%;
+	background-size: 50%;
+	background-repeat:;
+	li{
+		a{
+			color: @gre;
+			&:hover{
+				color: @reder;
+			}
+		}
+	}
+	.active1{
+			a{
+				color:@red;
+			}
+		}
+	.icon-bar{
+			border:2px solid @dyel;
+			}
+	#navTog{
+			&:hover{
+				background-color: @dyel;
+				border: 1px solid @red;
+				.icon-bar{
+					border:2px solid @red;
+				}
+			}
+		}
+	li:last-child{
+		a{
+			color: @bluee;
+		}
+	}	
+			
+}
+
+

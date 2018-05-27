@@ -1,0 +1,464 @@
+@red:#CE3005;
+@reder:#B23733;
+@pur:#9E3C35;
+@ora:#CD6000;
+@bluee:#4492C6;
+@blueer:#205E99;
+@dyel:#E2D4B5;
+@gre:#999999;
+@blu:#C3DAE2;
+@whi:#F6F6F6;
+
+
+.hoverColor{
+	&:hover{
+		// background-color: @red;
+		box-shadow:0px 20px 5px  rgba(0,0,0,.8) inset; 
+	}
+}
+
+.font-face {
+    font-family: "Futura";
+    src: url(../font/Futura.ttc);
+}
+
+body{
+	// background-image: url('../img/body-02.svg');
+	
+	// background-repeat:no-repeat;
+	height: 1000px;
+	margin-right: 0px;
+	margin-left: 0em;
+	
+	.font-face;
+	background-color: @whi;
+
+	
+}
+
+#pot{
+	position: fixed;
+	z-index: 2;
+	top: 0;
+}
+#navC1{
+	padding:0 100px;
+	margin-top: 50px;
+}
+#topMainImg{
+	background-color: @red;
+	// @height1:image-height("img/ele6.png");
+	background-image: url(../img/li5+.svg);
+	
+	background-position:0px 0px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	position: relative;
+	#logo{
+		font-family: "Futura";
+		font-size: 2em;
+		color: @whi;
+		float: right;
+		padding: 20px;
+		text-align: center;
+		ul{
+			display: inline-block;
+			.topNav{
+				display: inline-block;
+			}
+		}
+	}
+	
+	#slogen{
+		font-family: "Futura";
+		font-size: 5em;
+		clear: both;
+		color: @whi;
+		text-align: center;
+		transform: translateY(-120px);
+		z-index: 99;
+		
+	}
+}
+
+
+
+.Acontainer{
+	padding: 0 100px;
+	position: relative;
+	width: 80%;
+	float: left;
+	clear: both;
+	ul{
+		padding: 0px;
+		width: 100%;
+		list-style: none;
+		position: relative;
+		#start{
+			display: block;
+			float: left;
+			font-size: 1.5em;
+			padding: 5px 0px;
+			text-align: right;
+			width: 25%;
+			height: 145px;
+			background-color:@red;
+			background-image: url(../img/li2.svg);
+			background-position:bottom;
+			background-size:100%;
+			background-repeat: no-repeat;
+			z-index: 99;
+			position:absolute;
+			top: -60px;
+			transition: all 1s linear;
+			#startP{
+				color: @whi;
+				padding-left: 20px;
+				float: right;
+				    -webkit-animation-name: flash;
+				    -webkit-animation-duration: 2000ms;
+				    -webkit-animation-iteration-count: infinite; /*无限循环*/
+				    -webkit-animation-timing-function: linear;
+				
+				@-webkit-keyframes flash {
+				    0% { color: @dyel;}
+				    50%{ color: @red;}
+				    100% {color: @dyel;}
+				}
+			}
+			#icon {
+				clear: both;
+				width: 30%;
+				height: 50px;
+				transition: transform 0.2s linear, background 2s ease;
+				div{
+				width: 50%;
+				height: 5px;
+				margin-top: 10px;
+				background-color: @red;
+				}
+			}
+			// &:hover{
+			// 	background-color: #800E07;
+			// }
+			&:hover #icon{
+				transform: rotate(90deg) scaleX(0.5);
+
+				margin-top: 50px;
+				div{
+					background-color: @dyel;
+				}
+			}
+		}
+		#subNav{
+			position: absolute;
+			left: 100%;
+			top: 16%;
+			.flowli{
+				z-index: 99;
+				text-align: right;
+				padding: 0px;
+				height: 120px;
+				width: 0;
+				float: left;
+				position: absolute;
+				top: 2px;
+				box-shadow:0px 20px 5px  rgba(0,0,0,.5) inset; 
+				cursor:pointer;
+
+
+				&:hover a{
+					color: @whi;
+					font-size: 4em;
+					padding-right: 10px;
+				}
+				a{
+					text-decoration: none;
+					color: @whi;
+					font-size: 4em;
+					display: none;
+					width: 100%;
+					height: 100%;
+				}
+				h5{
+					font-size: 30px;
+					color: @whi;
+					position: absolute;
+					top: 50%;
+					right: 5%;
+					display: none;
+				}
+			}
+			
+			#flow1{
+				
+				box-shadow:0px 20px 5px  rgba(0,0,0,.5) inset; 
+				z-index: 13;
+				background-image: url('../img/ele8.png');
+				background-size: cover;
+				.hoverColor;
+			}
+			#flow2{
+				
+				z-index: 12;
+				background-image: url('../img/ele7.png');
+				background-size: cover;
+				.hoverColor;
+			}
+			#flow3{
+				
+				background-image: url('../img/ele9.png');
+				background-size: cover;
+				background-position: right 0px;
+				background-repeat:repeat-y;
+				z-index: 11;
+				.hoverColor;
+			}
+			#flow4{
+				background-color: @reder;
+				background-image: url('../img/ele17.png');
+				background-size:65%;
+				background-position: right 10px;
+				background-repeat:repeat-y;
+				z-index: 10;
+				.hoverColor;
+
+			}
+			#box{
+				.row{
+					padding: 20px;
+				}
+				.row1{
+					padding: 10px;
+					position: relative;
+					a{
+						margin:30px;
+					}
+
+				}
+				.row2{
+					padding:10px;
+					padding-top: 20px;
+				}
+				position: absolute;
+				top:122px;
+				
+				border-top: 5px solid @whi;
+				.pTitle{
+					float: right;
+					font-size: 1.5em;
+				}
+				.bgShow{
+					padding: 0;
+					margin: 0;
+					width: 100%;
+					overflow: hidden;
+					position: absolute;
+					
+				}
+
+				// box-shadow:-5px 5px 5px  rgba(0,0,0,.3);
+				#flow1c{
+					.row1{
+						background:no-repeat @red;
+						background-image: url('../img/dot2.svg');
+						background-position: 300px -150px;
+					}
+					.row2{
+						background:no-repeat @pur;
+						
+					}
+					#myCarousel{
+						background-color: none;
+					}
+
+				}
+				#flow2c{
+					.row1{
+						position: relative;
+						background:no-repeat ;
+						background-image: url('../img/dot2.svg');
+						background-position: 300px -150px;
+						img{
+							padding: 10px;
+							z-index: -2;
+							cursor: pointer;
+						}
+					.boxIn{
+						background-color: rgba(232,239,239,0.9);
+					}
+						#paopaoButton{	
+							position: relative;
+							
+							&:hover{
+								&:before{
+									position: absolute;
+									display: block;
+									background-color: @whi;
+									padding: 10px;
+									top: 0;
+									left:0;
+									width: 100%;
+									height: 100%;
+									z-index: 99;
+									content: 'MAKE BLOOD CELL'
+								}
+							}
+						}
+						background-color: @ora;
+						#paopao{
+							position: absolute;
+							bottom: 0px;
+							width: 100%;
+							z-index: 0;
+							text-align: left;
+						}
+					}
+				}
+				#flow3c{
+					.row1{
+						
+						background:no-repeat @bluee;
+						background-image: url('../img/dot2.svg');
+						background-position: 300px -150px;
+					}
+					.row2{
+						background-color: @blueer;
+					}
+				}
+				#flow4c{
+					.pTitle{
+						border: 2px solid @reder;
+						color:@reder;
+					}
+					h1{
+						// background-color: @reder;
+						color: @reder;
+						border: @reder;
+					}
+					a{
+						background-color: @reder;
+						border: none;
+						color: @dyel;
+						&:hover{
+							background-color:@dyel;
+							color:@reder;
+						}
+					}
+					.row1{
+						overflow: hidden;
+						background:no-repeat #E2DEDC;
+						background-image: url('../img/dot2.svg');
+						background-position: 300px -150px;
+						
+						color: @reder;
+						height: 1000px;
+					}
+					#textArea{
+						padding: 0;
+						margin: 0;
+						width: 100%;
+						// background-color: #E2DEDC;
+						height: 1000px;
+						overflow: hidden;
+						position: absolute;
+					}
+					#textArea p{
+						position: absolute;
+						border: none;
+						color: @whi;
+
+					}
+				}
+				.boxContent{
+					width: 100%;
+					display: none;
+					float: left;
+					padding:20px;
+					padding-top: 2px;
+					padding-bottom: 50px;
+					color:@whi;
+					h1{
+						// width: 40%;
+						font-size: 1.3em;
+						padding: 10px 30px;
+						text-align: left;
+						border: 0px solid @whi;
+						margin-left: 0px;
+
+					}
+					p{
+						clear: both;
+						font-size: 2em;
+						margin-top: 20px;
+						text-align: center;
+						border: 3px solid @whi;
+
+					}
+
+					.boxIn{
+						overflow: hidden;
+						background-color: #D6D5D4;
+						clear: both;
+						padding: 0px;
+						float: left;
+						img{
+							width: 100%;
+
+
+						}
+					}
+					.boxWord{
+						text-align:right;
+					
+						display: block;
+						transform: translateY(0px);
+						padding: 20px 50px;
+						padding-bottom: 10px;
+						a{
+							text-align: center;
+							padding: 10px 20px;
+							border: 1px solid @whi;
+							display: block;
+							margin: 20px 0px;
+							color: @whi;
+							transition: 0.5s;
+							&:hover{
+								background-color: @whi;
+								color: @gre;
+								text-decoration: none;
+							}
+						}
+					}//boxword
+				}//boxcontent
+			}//box
+		}//subnav
+	}//nav
+}//container
+
+#blood{
+
+	width: 1%;
+	height: 0px;
+	background-color: @red;
+	float: left;
+	position: absolute;
+	left: 22%;
+	border-radius: 45px;
+	transition: 0.6s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

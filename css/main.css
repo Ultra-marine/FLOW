@@ -1,0 +1,391 @@
+.hoverColor:hover {
+  box-shadow: 0px 20px 5px rgba(0, 0, 0, 0.8) inset;
+}
+.font-face {
+  font-family: "Futura";
+  src: url(../font/Futura.ttc);
+}
+body {
+  height: 1000px;
+  margin-right: 0px;
+  margin-left: 0em;
+  font-family: "Futura";
+  src: url(../font/Futura.ttc);
+  background-color: #F6F6F6;
+}
+#pot {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+}
+#navC1 {
+  padding: 0 100px;
+  margin-top: 50px;
+}
+#topMainImg {
+  background-color: #CE3005;
+  background-image: url(../img/li5+.svg);
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  position: relative;
+}
+#topMainImg #logo {
+  font-family: "Futura";
+  font-size: 2em;
+  color: #F6F6F6;
+  float: right;
+  padding: 20px;
+  text-align: center;
+}
+#topMainImg #logo ul {
+  display: inline-block;
+}
+#topMainImg #logo ul .topNav {
+  display: inline-block;
+}
+#topMainImg #slogen {
+  font-family: "Futura";
+  font-size: 5em;
+  clear: both;
+  color: #F6F6F6;
+  text-align: center;
+  transform: translateY(-120px);
+  z-index: 99;
+}
+.Acontainer {
+  padding: 0 100px;
+  position: relative;
+  width: 80%;
+  float: left;
+  clear: both;
+}
+.Acontainer ul {
+  padding: 0px;
+  width: 100%;
+  list-style: none;
+  position: relative;
+}
+.Acontainer ul #start {
+  display: block;
+  float: left;
+  font-size: 1.5em;
+  padding: 5px 0px;
+  text-align: right;
+  width: 25%;
+  height: 145px;
+  background-color: #CE3005;
+  background-image: url(../img/li2.svg);
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 99;
+  position: absolute;
+  top: -60px;
+  transition: all 1s linear;
+}
+.Acontainer ul #start #startP {
+  color: #F6F6F6;
+  padding-left: 20px;
+  float: right;
+  -webkit-animation-name: flash;
+  -webkit-animation-duration: 2000ms;
+  -webkit-animation-iteration-count: infinite;
+  /*无限循环*/
+  -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes flash {
+  0% {
+    color: #E2D4B5;
+  }
+  50% {
+    color: #CE3005;
+  }
+  100% {
+    color: #E2D4B5;
+  }
+}
+.Acontainer ul #start #icon {
+  clear: both;
+  width: 30%;
+  height: 50px;
+  transition: transform 0.2s linear, background 2s ease;
+}
+.Acontainer ul #start #icon div {
+  width: 50%;
+  height: 5px;
+  margin-top: 10px;
+  background-color: #CE3005;
+}
+.Acontainer ul #start:hover #icon {
+  transform: rotate(90deg) scaleX(0.5);
+  margin-top: 50px;
+}
+.Acontainer ul #start:hover #icon div {
+  background-color: #E2D4B5;
+}
+.Acontainer ul #subNav {
+  position: absolute;
+  left: 100%;
+  top: 16%;
+}
+.Acontainer ul #subNav .flowli {
+  z-index: 99;
+  text-align: right;
+  padding: 0px;
+  height: 120px;
+  width: 0;
+  float: left;
+  position: absolute;
+  top: 2px;
+  box-shadow: 0px 20px 5px rgba(0, 0, 0, 0.5) inset;
+  cursor: pointer;
+}
+.Acontainer ul #subNav .flowli:hover a {
+  color: #F6F6F6;
+  font-size: 4em;
+  padding-right: 10px;
+}
+.Acontainer ul #subNav .flowli a {
+  text-decoration: none;
+  color: #F6F6F6;
+  font-size: 4em;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.Acontainer ul #subNav .flowli h5 {
+  font-size: 30px;
+  color: #F6F6F6;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  display: none;
+}
+.Acontainer ul #subNav #flow1 {
+  box-shadow: 0px 20px 5px rgba(0, 0, 0, 0.5) inset;
+  z-index: 13;
+  background-image: url('../img/ele8.png');
+  background-size: cover;
+}
+.Acontainer ul #subNav #flow1:hover {
+  box-shadow: 0px 20px 5px rgba(0, 0, 0, 0.8) inset;
+}
+.Acontainer ul #subNav #flow2 {
+  z-index: 12;
+  background-image: url('../img/ele7.png');
+  background-size: cover;
+}
+.Acontainer ul #subNav #flow2:hover {
+  box-shadow: 0px 20px 5px rgba(0, 0, 0, 0.8) inset;
+}
+.Acontainer ul #subNav #flow3 {
+  background-image: url('../img/ele9.png');
+  background-size: cover;
+  background-position: right 0px;
+  background-repeat: repeat-y;
+  z-index: 11;
+}
+.Acontainer ul #subNav #flow3:hover {
+  box-shadow: 0px 20px 5px rgba(0, 0, 0, 0.8) inset;
+}
+.Acontainer ul #subNav #flow4 {
+  background-color: #B23733;
+  background-image: url('../img/ele17.png');
+  background-size: 65%;
+  background-position: right 10px;
+  background-repeat: repeat-y;
+  z-index: 10;
+}
+.Acontainer ul #subNav #flow4:hover {
+  box-shadow: 0px 20px 5px rgba(0, 0, 0, 0.8) inset;
+}
+.Acontainer ul #subNav #box {
+  position: absolute;
+  top: 122px;
+  border-top: 5px solid #F6F6F6;
+}
+.Acontainer ul #subNav #box .row {
+  padding: 20px;
+}
+.Acontainer ul #subNav #box .row1 {
+  padding: 10px;
+  position: relative;
+}
+.Acontainer ul #subNav #box .row1 a {
+  margin: 30px;
+}
+.Acontainer ul #subNav #box .row2 {
+  padding: 10px;
+  padding-top: 20px;
+}
+.Acontainer ul #subNav #box .pTitle {
+  float: right;
+  font-size: 1.5em;
+}
+.Acontainer ul #subNav #box .bgShow {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+.Acontainer ul #subNav #box #flow1c .row1 {
+  background: no-repeat #CE3005;
+  background-image: url('../img/dot2.svg');
+  background-position: 300px -150px;
+}
+.Acontainer ul #subNav #box #flow1c .row2 {
+  background: no-repeat #9E3C35;
+}
+.Acontainer ul #subNav #box #flow1c #myCarousel {
+  background-color: none;
+}
+.Acontainer ul #subNav #box #flow2c .row1 {
+  position: relative;
+  background: no-repeat;
+  background-image: url('../img/dot2.svg');
+  background-position: 300px -150px;
+  background-color: #CD6000;
+}
+.Acontainer ul #subNav #box #flow2c .row1 img {
+  padding: 10px;
+  z-index: -2;
+  cursor: pointer;
+}
+.Acontainer ul #subNav #box #flow2c .row1 .boxIn {
+  background-color: rgba(232, 239, 239, 0.9);
+}
+.Acontainer ul #subNav #box #flow2c .row1 #paopaoButton {
+  position: relative;
+}
+.Acontainer ul #subNav #box #flow2c .row1 #paopaoButton:hover:before {
+  position: absolute;
+  display: block;
+  background-color: #F6F6F6;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  content: 'MAKE BLOOD CELL';
+}
+.Acontainer ul #subNav #box #flow2c .row1 #paopao {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  z-index: 0;
+  text-align: left;
+}
+.Acontainer ul #subNav #box #flow3c .row1 {
+  background: no-repeat #4492C6;
+  background-image: url('../img/dot2.svg');
+  background-position: 300px -150px;
+}
+.Acontainer ul #subNav #box #flow3c .row2 {
+  background-color: #205E99;
+}
+.Acontainer ul #subNav #box #flow4c .pTitle {
+  border: 2px solid #B23733;
+  color: #B23733;
+}
+.Acontainer ul #subNav #box #flow4c h1 {
+  color: #B23733;
+  border: #B23733;
+}
+.Acontainer ul #subNav #box #flow4c a {
+  background-color: #B23733;
+  border: none;
+  color: #E2D4B5;
+}
+.Acontainer ul #subNav #box #flow4c a:hover {
+  background-color: #E2D4B5;
+  color: #B23733;
+}
+.Acontainer ul #subNav #box #flow4c .row1 {
+  overflow: hidden;
+  background: no-repeat #E2DEDC;
+  background-image: url('../img/dot2.svg');
+  background-position: 300px -150px;
+  color: #B23733;
+  height: 1000px;
+}
+.Acontainer ul #subNav #box #flow4c #textArea {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+  position: absolute;
+}
+.Acontainer ul #subNav #box #flow4c #textArea p {
+  position: absolute;
+  border: none;
+  color: #F6F6F6;
+}
+.Acontainer ul #subNav #box .boxContent {
+  width: 100%;
+  display: none;
+  float: left;
+  padding: 20px;
+  padding-top: 2px;
+  padding-bottom: 50px;
+  color: #F6F6F6;
+}
+.Acontainer ul #subNav #box .boxContent h1 {
+  font-size: 1.3em;
+  padding: 10px 30px;
+  text-align: left;
+  border: 0px solid #F6F6F6;
+  margin-left: 0px;
+}
+.Acontainer ul #subNav #box .boxContent p {
+  clear: both;
+  font-size: 2em;
+  margin-top: 20px;
+  text-align: center;
+  border: 3px solid #F6F6F6;
+}
+.Acontainer ul #subNav #box .boxContent .boxIn {
+  overflow: hidden;
+  background-color: #D6D5D4;
+  clear: both;
+  padding: 0px;
+  float: left;
+}
+.Acontainer ul #subNav #box .boxContent .boxIn img {
+  width: 100%;
+}
+.Acontainer ul #subNav #box .boxContent .boxWord {
+  text-align: right;
+  display: block;
+  transform: translateY(0px);
+  padding: 20px 50px;
+  padding-bottom: 10px;
+}
+.Acontainer ul #subNav #box .boxContent .boxWord a {
+  text-align: center;
+  padding: 10px 20px;
+  border: 1px solid #F6F6F6;
+  display: block;
+  margin: 20px 0px;
+  color: #F6F6F6;
+  transition: 0.5s;
+}
+.Acontainer ul #subNav #box .boxContent .boxWord a:hover {
+  background-color: #F6F6F6;
+  color: #999999;
+  text-decoration: none;
+}
+#blood {
+  width: 1%;
+  height: 0px;
+  background-color: #CE3005;
+  float: left;
+  position: absolute;
+  left: 22%;
+  border-radius: 45px;
+  transition: 0.6s;
+}
